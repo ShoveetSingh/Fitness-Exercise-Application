@@ -1,0 +1,10 @@
+.exercise-video {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.fu {
+  display: flex;
+  flex-direction: row-reverse;
+  flex: 1;
+}

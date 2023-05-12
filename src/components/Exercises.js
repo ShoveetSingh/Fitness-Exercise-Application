@@ -29,7 +29,7 @@ const Exercises = ({exercises,setExercises,bodyPart}) => {
 
   const indexoflastex=currentPage*exercisesPerPage;
   const indexoffirstex=indexoflastex-exercisesPerPage;
-  const currentExercises = Array.isArray(exercises) ? exercises.slice(indexoffirstex, indexoflastex) : [];
+  const currentExercises = Array.isArray(exercises) ? exercises?.slice(indexoffirstex, indexoflastex) : [];
 
   //const currentExercises = exercises.slice(indexoffirstex,indexoflastex);
 
